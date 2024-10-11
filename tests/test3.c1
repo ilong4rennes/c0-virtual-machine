@@ -1,0 +1,11 @@
+#use <conio>
+#use <string>
+
+int main () {
+    int* p = alloc(int);
+    *p = 3;
+    void *a = (void*)p;
+    printf("%d \n", *(int*)a);
+    print("All tests passed");
+    return 0;
+}
